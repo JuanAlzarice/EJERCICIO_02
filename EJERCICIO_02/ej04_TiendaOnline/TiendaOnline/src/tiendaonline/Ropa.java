@@ -1,9 +1,8 @@
-
 package tiendaonline;
 
-
 public class Ropa extends Producto {
-     public Ropa(String nombre, double precioBase, String marca) {
+
+    public Ropa(String nombre, double precioBase, String marca) {
         super(nombre, precioBase, marca);
     }
 

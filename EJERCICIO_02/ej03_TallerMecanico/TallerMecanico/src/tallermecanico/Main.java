@@ -12,7 +12,7 @@ public class Main {
         reparables.add(new Auto("Toyota", "Corolla"));
         reparables.add(new Moto("Honda", "CBR600"));
 
-        // Recorriendo y reparando vehículos
+        // ahora recorro y reparo
         for (Reparable reparable : reparables) {
             reparable.reparar();
         }

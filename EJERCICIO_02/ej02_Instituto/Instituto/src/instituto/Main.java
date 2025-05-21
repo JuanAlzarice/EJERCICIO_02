@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Main {
 
     public static void main(String[] args) {
-        Curso cursoJava = new Curso("Java Básico", 12);
+        Curso cursoJava = new Curso("Java Basico", 12);
         Estudiante estudiante1 = new Estudiante("Juan", "Pérez", "12345678", "A001", cursoJava);
 
         ArrayList<Estudiante> estudiantes = new ArrayList<>();

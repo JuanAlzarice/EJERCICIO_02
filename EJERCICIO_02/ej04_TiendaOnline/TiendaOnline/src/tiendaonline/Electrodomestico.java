@@ -1,8 +1,7 @@
-
 package tiendaonline;
 
-
 public class Electrodomestico extends Producto {
+
     public Electrodomestico(String nombre, double precioBase, String marca) {
         super(nombre, precioBase, marca);
     }

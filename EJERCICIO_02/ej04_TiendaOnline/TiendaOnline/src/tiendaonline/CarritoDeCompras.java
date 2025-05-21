@@ -1,10 +1,10 @@
-
 package tiendaonline;
 
 import java.util.ArrayList;
 
 public class CarritoDeCompras {
-       ArrayList<Producto> productos = new ArrayList<>();
+
+    ArrayList<Producto> productos = new ArrayList<>();
 
     public void agregarProducto(Producto producto) {
         productos.add(producto);
